@@ -1,0 +1,7 @@
+#This overrides default user:user and generated password and enables use credentials below.If below line commented then
+#default username is user and password will be random printed on console when application starts
+spring:
+  security:
+    user:
+      name: test
+      password: test
